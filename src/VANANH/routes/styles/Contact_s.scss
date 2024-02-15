@@ -1,0 +1,111 @@
+.contact_s {
+  font-family: "Inter", sans-serif;
+}
+.contact_s .ctn {
+  background-color: rgb(242, 242, 242);
+}
+.contact_s .container h5 {
+  border-bottom: 2px solid #f18320;
+}
+.contact_s .container .col-img {
+  background-color: rgb(255, 255, 255);
+  p {
+    color: #f18320;
+    font-size: 13px;
+  }
+  .fw-bold {
+    color: #f18320;
+  }
+}
+
+.contact_s .container .col-contact h5 {
+  font-weight: bold;
+}
+.contact_s .container .col-contact .row-text p {
+  span {
+    font-weight: bold;
+  }
+}
+
+.contact_s .row-body .contact-btn {
+  background-color: #f18320;
+  color: white;
+  border: none;
+  height: 50px;
+}
+.contact_s .row-body .contact-btn:active {
+  background-color: #dd7317;
+}
+// ----------------------
+.contact_s .notifications {
+  position: fixed;
+
+  top: 30px;
+  right: 20px;
+}
+
+// .contact_s .toast {
+//   position: relative;
+//   padding: 10px;
+//   color: rgb(0, 0, 0);
+//   display: block !important;
+//   margin-bottom: 10px;
+//   width: 400px;
+//   display: grid;
+//   grid-template-columns: 70px 1fr 70px;
+//   border-radius: 5px;
+//   --color: #0abf30;
+//   background-image: linear-gradient(to right, #0abf3055, #22242f 30%);
+//   animation: show 0.3s ease 1 forwards;
+// }
+
+// .contact_s .toast i {
+//   color: var(--color);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: x-large;
+// }
+
+// .contact_s .toast .title {
+//   font-size: x-large;
+//   font-weight: bold;
+// }
+
+// .contact_s .toast span,
+// .toast i:nth-child(3) {
+//   color: #fff;
+//   opacity: 0.6;
+// }
+// @keyframes show {
+//   0% {
+//     transform: translateX(100%);
+//   }
+//   40% {
+//     transform: translateX(-5%);
+//   }
+//   80% {
+//     transform: translateX(0%);
+//   }
+//   100% {
+//     transform: translateX(-10%);
+//   }
+// }
+
+// .contact_s .toast::before {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   background-color: var(--color);
+//   width: 100%;
+//   height: 3px;
+//   content: "";
+//   box-shadow: 0 0 10px var(--color);
+//   animation: timeOut 5s linear 1 forwards;
+// }
+
+// @keyframes timeOut {
+//   to {
+//     width: 0;
+//   }
+// }

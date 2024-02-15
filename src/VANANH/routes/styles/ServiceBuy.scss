@@ -1,0 +1,147 @@
+.servicebuy * {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.servicebuy .row-title h3 {
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+.servicebuy .row-body .col-right {
+  padding: 1px;
+}
+.servicebuy .col-right .product-top h3 {
+  margin-top: 0;
+  font-size: 26px;
+  line-height: 29px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+  color: #0d1c41;
+}
+.servicebuy .col-right .product-top .special-price span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+
+.custom-btn-numbers {
+  float: left;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+  border: 1px solid #ebebeb;
+  min-height: unset;
+  width: auto;
+  background-color: transparent;
+  height: auto;
+}
+.servicebuy div.form-control {
+  width: auto;
+}
+.servicebuy .btn-minus,
+.btn-plus {
+  font-size: 18px;
+  line-height: 1;
+  border: none;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #f5f6fa;
+  float: left;
+  color: #0d1c41;
+  text-align: center;
+  padding: 0px;
+  border-radius: 0;
+}
+.servicebuy .qty {
+  height: 35px;
+  font-size: 1em;
+  margin: 0;
+  width: 35px;
+  padding: 0 2px;
+  text-align: center;
+  background: #fff;
+  min-height: unset;
+  display: block;
+  float: left;
+  box-shadow: none;
+  border-radius: 0px;
+  border: none;
+}
+
+.servicebuy.btn-plus {
+  font-size: 18px;
+  line-height: 1;
+  border: none;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #f5f6fa;
+  float: left;
+  color: #0d1c41;
+  text-align: center;
+  padding: 0px;
+  border-radius: 0;
+}
+
+.servicebuy.btn-mua {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicebuy.buy-now {
+  background-color: #001c71;
+  color: #fff;
+}
+.servicebuy .img-body {
+  width: 100%;
+  height: 100%;
+}
+.servicebuy .btn-cart {
+  margin: 1rem;
+
+  background-color: rgb(6, 179, 6);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.servicebuy .btn-cart:hover {
+  background-color: rgb(6, 140, 0);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.servicebuy .txt-main {
+  padding-left: 1rem;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .servicebuy div.form-control {
+    width: 38%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .servicebuy div.form-control {
+    width: 53%;
+  }
+  .servicebuy .txt-main {
+    padding-left: 0rem;
+    font-size: 19px;
+    margin-left: 4px;
+  }
+  .servicebuy .hr-body-service {
+    width: 10rem;
+    border-top: 3px solid rgb(255, 255, 255);
+    margin-left: 18rem;
+    margin-bottom: 1rem;
+    border: 1px solid #007bd9;
+    margin-left: 5rem;
+  }
+  .servicebuy .btn-cart {
+    margin: 0rem;
+  }
+}
